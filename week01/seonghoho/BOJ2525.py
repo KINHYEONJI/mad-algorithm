@@ -9,5 +9,5 @@ else:
         h_cnt += 1
         mid -= 60
     if (h+h_cnt) >= 24:
-        h -= 24
+        h -= 24 
     print(f'{h+h_cnt} {mid}')
