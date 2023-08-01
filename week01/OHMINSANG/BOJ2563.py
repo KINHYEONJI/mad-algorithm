@@ -12,7 +12,6 @@ for i in range(nums):
     for x in range(x_pot, x_pot + 10):
         for y in range(y_pot, y_pot + 10):
             arr[x][y] = 1
-
 cnt = 0
 for x in range(100):
     for y in range(100):
