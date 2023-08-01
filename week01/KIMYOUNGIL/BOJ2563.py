@@ -12,4 +12,4 @@ for i in matrix:
         if j == 1:
             cnt += 1
 
-print(cnt)
+print(cnt) 
