@@ -6,7 +6,7 @@ ja = 1
 # 1~k까지 곱한 값이 분모
 for i in range(n-k+1,n+1):
     ja *= i
-for j in range(1,k+1):
+for j in range(1,k+1): 
     mo *= j
 
 print(ja//mo)

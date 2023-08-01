@@ -1,10 +1,10 @@
 h, m = map(int, input().split())
 t = int(input())
 mid = m + t
-h_cnt = 0
+h_cnt = 0 
 if 0 <= mid <= 59:
     print(f'{h} {m+t}')
-else:
+else: 
     while mid >= 60:
         h_cnt += 1
         mid -= 60
