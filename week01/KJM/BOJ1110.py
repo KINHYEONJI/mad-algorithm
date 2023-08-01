@@ -4,7 +4,7 @@ init_num = num  # 반복문 탈출을 위한 초기값 저장
 cycle = 0
 new_num = 0   
 
-
+#
 while True:
     # 1)어떤 숫자를 10의 자리수와 1의 자리수로 나눈다
     ten_place = num // 10
