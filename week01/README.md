@@ -14,3 +14,9 @@
 - [1110](https://www.acmicpc.net/problem/1110)
 - [2563](https://www.acmicpc.net/problem/2563)
 - [1748](https://www.acmicpc.net/problem/1748)
+
+### 0802
+
+- [1475](https://www.acmicpc.net/problem/1475)
+- [2167](https://www.acmicpc.net/problem/2167)
+- [1244](https://www.acmicpc.net/problem/1244)
