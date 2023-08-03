@@ -5,3 +5,5 @@ while  num > i:
         i += 6 * count
         count += 1
 print(count)
+
+
