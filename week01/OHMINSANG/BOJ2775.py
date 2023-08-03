@@ -21,4 +21,3 @@ for tc in range(1, T+1):
         for j in range(1, n+1):
             Sum_lst[j] += Sum_lst[j-1]
     print(Sum_lst[n])
-
