@@ -6,5 +6,3 @@ while  num > i:
         count += 1
 print(count)
 
-
-
