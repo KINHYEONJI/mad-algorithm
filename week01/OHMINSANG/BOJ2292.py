@@ -15,7 +15,7 @@ N = int(input())
 orbital = 1
 room = 1
 while N > room:
-    #orbital이 증가하는 조건. 초기값 1, 7, 19,... 일때 6의 배수만큼 곱해야 다름 orbital로 넘어감
+    # orbital이 증가하는 조건. 초기값 1, 7, 19,... 일때 6의 배수만큼 곱해야 다름 orbital로 넘어감
     room = 6 * orbital + room
     orbital += 1
 print(orbital)
