@@ -1,5 +1,5 @@
-tc = int(input())
-for _ in range(tc):
+t = int(input())
+for _ in range(t):
     floor_lst = []
     k = int(input())
     n = int(input())
