@@ -5,5 +5,3 @@ while  num > hony:
         hony += 6 * count
         count += 1
 print(count)
-
-
