@@ -11,7 +11,9 @@ lst = list(word)
 ord_lst = []
 for i in lst:
     ord_lst.append(ord(i))
-# 버킷 생성 후 아스키코드에 -65 하고 버킷 인덱스에 +1
+
+
+# 버킷 생성 후 아스키코드에 -65 하고 버킷 인덱스에 + 1
 # 위 과정으로 알파벳 등장 최빈수 카운트
 # 최빈수 찾고, 최빈수의 해당 인덱스 번호 저장
 bucket = [0] * 30
@@ -20,11 +22,17 @@ for j in ord_lst:
     bucket[j] += 1
 Max_1 = max(bucket)
 Max_pt_1 = bucket.index(max(bucket))
+
+
 # 최빈수의 인덱스 값 0으로 초기화
 bucket[Max_pt_1] = 0
+
+
 # 두 번째 최빈수 찾고, 최빈수의 해당 인덱스 번호 저장
 Max_2 = max(bucket)
 Max_pt_2 = bucket.index(max(bucket))
+
+
 # 첫 번째 최빈수와 두 번째 최빈수 비교해서 첫 번째가 더 크면 해당 인덱스 번호에 +65하고 char 형변환 후 출력
 # 다르면 '?' 출력
 if Max_1 > Max_2:
