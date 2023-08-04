@@ -8,4 +8,3 @@ for i in range(k):
         for l in range(j-1, y):
             Sum += arr[q][l]
     print(Sum)
-
