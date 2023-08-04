@@ -17,3 +17,4 @@ else:
             print(r +1)
             break
         r+=1
+    while n>c:#c는 천천히 증가중이니깐 계속 참이다 딱         
