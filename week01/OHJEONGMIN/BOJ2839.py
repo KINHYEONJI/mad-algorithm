@@ -1,5 +1,5 @@
 sugar = int(input())
-def search(sugar):
+def Search(sugar):
     cnt = 0
     while sugar>=0:
         if sugar % 5 == 0:
@@ -8,4 +8,4 @@ def search(sugar):
         sugar-=3
         cnt+=1
     return -1
-print(search(sugar))
+print(Search(sugar))
