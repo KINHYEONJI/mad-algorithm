@@ -1,6 +1,6 @@
 N = int(input())
 print('어느 한 컴퓨터공학과 학생이 유명한 교수님을 찾아가 물었다.')
-def talk(num):
+def Talk(num):
     if num==0:
         print('_'*(4*(N-num))+'"재귀함수가 뭔가요?"')
         print('_' * (4 * (N - num)) + '"재귀함수는 자기 자신을 호출하는 함수라네"')
@@ -13,4 +13,4 @@ def talk(num):
     talk(num-1)
     print('_'*(4*(N-num))+'라고 답변하였지.')
 
-talk(N)
+Talk(N)
