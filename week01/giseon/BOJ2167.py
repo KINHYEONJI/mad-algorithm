@@ -1,25 +1,17 @@
-N,M=map(int,input().split())
+n,m=map(int,input().split())
 arr=[] 
-lst_y=[]
-for i in range(N): # 조건 받아서 배열 선언
-    lst_y=list(map(int,input().split()))
-    arr.append(lst_y)
 
-K=int(input())
+dp=[[0]*(m+1) for _ in range(n+1)] #m=
+for _ in range(n):
+    arr.append(list(map(int,input().split())))
 
+for i in range(1,n+1):
+    for j in range(1, m+1):
+        dp[i][j] = arr[i-1][j-1] +dp[i][j-1]+dp[i-1][j]-dp[i-1][j-1]
 
-def asum(y,x,a,b): #함수 선언 ij 배열을 기준으로 xy까지 사이의 공간을 높이 a,가로 b로 대입하여 ab영역의 합구하기
-    sum=0
-    for i in range(a): #높이
-        for j in range(b): #가로
-            sum+=arr[y+i][x+j]
-    return sum
+k=int(input())
 
+for _ in range(k):
+    i, j, x, y = map(int,input().split())
 
-for i in range(K):     #i,j받고 x,y받아서 ij기준으로 xy까지의 범위의 직사각형 함수에 넣어구하기
-    i,j,x,y = map(int,input().split())
-    a=asum(i-1,j-1,x-i+1,y-j+1)
-    
-    print(a)
-
-    #시간 제한으로 인하여 실패^ 오드비 작은 식을쓰자..
+    print(dp[x][y] - dp[x][j-1] +dp[i-1][y]+dp[i-1][j-1])
