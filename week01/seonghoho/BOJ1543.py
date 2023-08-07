@@ -15,3 +15,4 @@ while ndx < len(lst):                   #인덱스가 문서 길이보다 작을
     else:
         ndx += 1                        # 타겟의 길이와 일치값이 다르면 인덱스 값 1 증가
 print(sum_)
+ 
