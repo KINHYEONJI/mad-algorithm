@@ -20,3 +20,19 @@
 - [1475](https://www.acmicpc.net/problem/1475)
 - [2167](https://www.acmicpc.net/problem/2167)
 - [1244](https://www.acmicpc.net/problem/1244)
+
+### 0803
+
+- [10809](https://www.acmicpc.net/problem/10809)
+- [2292](https://www.acmicpc.net/problem/2292)
+- [2775](https://www.acmicpc.net/problem/2775)
+
+### 0804
+- [1543](https://www.acmicpc.net/problem/1543)
+- [1157](https://www.acmicpc.net/problem/1157)
+- [11655](https://www.acmicpc.net/problem/11655)
+-
+### 0805
+- [10872](https://www.acmicpc.net/problem/10872)
+- [17478](https://www.acmicpc.net/problem/17478)
+- [2839](https://www.acmicpc.net/problem/2839)
