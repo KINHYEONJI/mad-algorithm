@@ -15,3 +15,4 @@ while 1:
         print()
     except EOFError:
         break
+    
