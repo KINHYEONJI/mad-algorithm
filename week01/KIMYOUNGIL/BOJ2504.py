@@ -6,34 +6,50 @@ if st[0] == ']' or st[0] == ')':
 
 else:
     arr = [0]
+    r = 0
+    ans = 0
     res = 0
-    a = 0
     for i in range(n):
         if st[i] == '(' or st[i] =='[':
             arr.append(st[i])
-            res += a
-            a = 0
+            ans += r
+            r = 0
 
         elif st[i] == ']':
             if arr[-1] == '[':
                 arr.pop()
-                if a == 0:
-                    a += 3
+                if arr == [0]:
+                    if r == 0:
+                        res += 3
+                    else:
+                        res += (ans+r)*3
+                        r = 0
+                        ans = 0
+                elif r == 0:
+                    r += 3
                 else:
-                    a *= 3
-
+                    r *= 3
             else:
-                print(0)
+                res = 0
                 break
 
         elif st[i] == ')':
             if arr[-1] == '(':
                 arr.pop()
-                if a == 0:
-                    a += 2
+                if arr == [0]:
+                    if r == 0:
+                        res += 2
+                    else:
+                        res += (ans+r)*2
+                        r = 0
+                        ans = 0
+                elif r == 0:
+                    r += 2
                 else:
-                    a *= 2
+                    r *= 2
             else:
-                print(0)
+                res = 0
                 break
+    if len(arr) >= 2:
+        res = 0
     print(res)
