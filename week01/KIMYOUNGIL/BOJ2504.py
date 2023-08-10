@@ -11,7 +11,9 @@ else:
     for i in range(n):
         if st[i] == '(' or st[i] =='[':
             arr.append(st[i])
+            res += a
             a = 0
+
         elif st[i] == ']':
             if arr[-1] == '[':
                 arr.pop()
@@ -19,7 +21,7 @@ else:
                     a += 3
                 else:
                     a *= 3
-                res += a
+
             else:
                 print(0)
                 break
@@ -34,3 +36,4 @@ else:
             else:
                 print(0)
                 break
+    print(res)
