@@ -4,13 +4,13 @@ lst = list(map(int,input().split()))
 lst.sort()
 def abc(level,start):
     if level==M:
-        print(*path)
+        print(*Path)
         return
 
     for i in range(start,N):
-        path[level] = lst[i]
+        Path[level] = lst[i]
         abc(level+1,i+1)
 
 
-path = ['']*M
+Path = ['']*M
 abc(0,0)
