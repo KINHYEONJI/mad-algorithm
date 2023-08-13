@@ -20,7 +20,7 @@ def D_P_up(lv):
         return
 
     for j in range(len(lst)):                               # range를 n으로 해도 되지만 좀 더 명시적으로 표현하기 위해 len(lst) 사용
-        if lv > 0 and path[lv - 1] >= lst[j]: continue      # path 리스트가 오름차순으로 입력받아야 해서 조건문 추가. 이때 같은 숫자는 중복 허용이기 때문에 등호 추가
+        if lv > 0 and path[lv - 1] > lst[j]: continue      # path 리스트가 오름차순으로 입력받아야 해서 조건문 추가. 이때 같은 숫자는 중복 허용이기 때문에 등호는 뺌
         path[lv] = lst[j]
         D_P_up(lv + 1)
 
