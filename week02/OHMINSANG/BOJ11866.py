@@ -21,5 +21,5 @@ while q:
     n = q.popleft()
     lst.append(n)
 
-# f-string을 사용해서 리스트 요소만 출력 할 땐 "".join을 사용
+# f-string을 사용해서 리스트 요소만 출력 할 땐 "".join 사용
 print(f'<{", ".join(map(str, lst))}>')
