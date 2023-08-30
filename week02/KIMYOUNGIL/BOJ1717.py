@@ -1,14 +1,15 @@
+import sys
+input = sys.stdin.readline
+
 def boss(x):
-    if arr[x] == -1:
-        return x
+    if arr[x] == -1: return x
     ret = boss(arr[x])
     arr[x] = ret
     return ret
 
 def union(x,y):
     xb,yb = boss(x),boss(y)
-    if xb == yb:
-        return
+    if xb == yb: return
     arr[yb] = xb
 
 n,m = map(int,input().split())
@@ -18,5 +19,4 @@ for _ in range(m):
     if r:
         if boss(a) == boss(b): print('YES')
         else: print('NO')
-    else:
-        union(a,b)
+    else: union(a,b)
