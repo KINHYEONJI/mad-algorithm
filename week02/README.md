@@ -25,3 +25,8 @@
 
 - [1717](https://www.acmicpc.net/problem/1717)
 - [1647](https://www.acmicpc.net/problem/1647)
+
+### 0831
+
+- [2056](https://www.acmicpc.net/problem/2056)
+- [7569](https://www.acmicpc.net/problem/7569)
