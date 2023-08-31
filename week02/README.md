@@ -20,3 +20,8 @@
 - [2004](https://www.acmicpc.net/problem/2004)
 - [2436](https://www.acmicpc.net/problem/2436)
 - [14465](https://www.acmicpc.net/problem/14465)
+
+### 0830
+
+- [1717](https://www.acmicpc.net/problem/1717)
+- [1647](https://www.acmicpc.net/problem/1647)
