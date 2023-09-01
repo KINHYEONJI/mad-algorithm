@@ -18,7 +18,7 @@ def bfs():
         for i in range(N):
             for j in range(M):
                 if arr[k][i][j] == 1:
-                    q.append([k,i,j,2])
+                    q.append([k,i,j,2]) # z
 
     while q:
         z,y,x,days = q.popleft()
