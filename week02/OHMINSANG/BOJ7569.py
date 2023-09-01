@@ -1,4 +1,6 @@
 from collections import deque
+import sys
+input = sys.stdin.readline
 
 col, row, layer = map(int, input().split())
 multi_arr = []
@@ -30,8 +32,7 @@ while q:
         nz = zz + dz[i]
 
         if 0 <= nx < row and 0 <= ny < col and 0 <= nz < layer:
-            Max = max(multi_arr[nz][nx][ny], multi_arr[zz][xx][yy],
-                      Max)  # 초기 Max 설정. 모든 배열이 가득 차있어서 아래 코드가 실행 안될 수 있기 때문에 해당 코드 삽입
+            Max = max(multi_arr[nz][nx][ny], multi_arr[zz][xx][yy], Max)  # 초기 Max 설정. 모든 배열이 가득 차있어서 아래 코드가 실행 안될 수 있기 때문에 해당 코드 삽입
             if multi_arr[nz][nx][ny] != 0: continue  # 배열 값이 0이 아니면 패스
             if used[nz][nx][ny] == 0:  # used가 0이면 아래 코드 실행
                 multi_arr[nz][nx][ny] += multi_arr[zz][xx][yy] + 1
