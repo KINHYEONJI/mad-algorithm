@@ -1,15 +1,35 @@
-arr = [[0] * 21] + [[0] + list(map(int, input().split())) + [0] for i in range(18)] + [[0] * 21]
-used = [[0]*21 for _ in range(21)]
-dy = [-1, 0, 1, 1, 1, 0, -1, -1]
-dx = [1, 1, 1, 0, -1, -1, -1, 0]
+import sys
 
-for y in range(21):
-    for x in range(21):
-        if arr[y][x] !=0:
-            for i in range(8):
-                ny = y +dy[i]
-                nx = x +dx[i]
-                if 0 <= ny <21 and 1<= nx<21:
+sys.stdin = open('input.txt', 'r')
 
-for i in arr:
-    print(*i)
+
+def bfs():
+    for x in range(19):
+        for y in range(19):
+            if arr[x][y]:
+                for i in range(4):
+                    nx = x + dx[i]
+                    ny = y + dy[i]
+                    cnt = 1
+                    while 0 <= nx < 19 and 0 <= ny < 19 and arr[x][y] == arr[nx][ny]:
+                        cnt += 1
+                        if cnt == 5:
+                            if 0 <= nx + dx[i] < 19 and 0 <= ny + dy[i] < 19 and arr[nx][ny] == arr[nx + dx[i]][ny + dy[i]]:
+                                break
+                            if 0 <= x - dx[i] < 19 and 0 <= y - dy[i] < 19 and arr[x][y] == arr[x - dx[i]][y - dy[i]]:
+                                break
+                            return arr[x][y], x + 1, y + 1
+                        nx += dx[i]
+                        ny += dy[i]
+    return 0, -1, -1
+
+
+arr = [list(map(int, input().split())) for i in range(19)]
+dx = [1, 1, 0, -1]
+dy = [0, 1, 1, 1]
+flag, x, y = bfs()
+if not flag:
+    print(flag)
+else:
+    print(flag)
+    print(x, y)
