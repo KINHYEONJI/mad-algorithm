@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('week01/KJM/input.txt','r')
+sys.stdin = open('AUGUST/KJM/input.txt','r')
 '''
 인접행렬 만들어서 DFS해보기
 1. n대의 컴퓨터니까 n*n만큼 인접행렬 생성
