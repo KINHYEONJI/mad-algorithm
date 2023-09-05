@@ -15,7 +15,6 @@ def abc():
                 st.pop()
             else:
                 st.popleft()
-
     if cnt%2:
         st.reverse()
     return print('['+",".join(st)+']')
