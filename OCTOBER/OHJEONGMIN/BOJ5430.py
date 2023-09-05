@@ -17,6 +17,7 @@ def abc():
                 st.popleft()
     if cnt%2:
         st.reverse()
+
     return print('['+",".join(st)+']')
 
 tc = int(input())
