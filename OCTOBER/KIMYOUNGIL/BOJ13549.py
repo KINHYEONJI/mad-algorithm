@@ -30,4 +30,5 @@ def bfs():
             if visited[p-1] == 0:
                 visited[p-1] = 1
                 q.append([p-1,c+1])
+
 bfs()
