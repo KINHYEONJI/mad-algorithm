@@ -24,3 +24,4 @@ q = deque()
 q.append(n)
 ret = bfs()
 print(ret)
+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
