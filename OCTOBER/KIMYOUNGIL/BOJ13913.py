@@ -3,8 +3,7 @@ n,k = map(int,input().split())
 
 if n >= k:
     print(n-k)
-    for i in range(n,k-1,-1):
-        print(i,end=" ")
+    for i in range(n,k-1,-1): print(i,end=" ")
 else:
     q = deque([n])
     visited = [0]*100001
