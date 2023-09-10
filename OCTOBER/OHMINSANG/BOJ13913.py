@@ -4,6 +4,8 @@ sys.stdin = open('input.txt', 'r')
 
 from collections import deque
 
+
+# 경로 역추적 함수
 def back_path(nn, k, used):
     path = [k]
     while used[nn] > 1:
@@ -11,13 +13,14 @@ def back_path(nn, k, used):
             if used[nn] == used[k] - 1:
                 k = nn
                 break
-        path.append(k)
-    path.append(original_n)
-    return path[::-1]
+        path.insert(0, k)
+    path.insert(0, original_n)
+    return path
 
 
 n, k = map(int, input().split())
 original_n = n
+
 #  위치 같을 때
 if n == k:
     print(0)
