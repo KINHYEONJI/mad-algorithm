@@ -29,4 +29,3 @@ q.append([n,0])
 used[n]=1
 bfs()
 print(min(result))
-
