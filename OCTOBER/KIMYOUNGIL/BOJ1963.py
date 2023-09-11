@@ -10,9 +10,9 @@ for i in range(2,10000):
     if check[i] == 0: prime.append(i)
 
 def bfs(x):
-    q = deque([[x,0]])
     visited = [0]*10000
     visited[x] = 1
+    q = deque([[x,0]])
     while q:
         p,c = q.popleft()
         if p == e: return print(c)
