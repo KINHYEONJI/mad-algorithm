@@ -21,17 +21,13 @@ while 1:
         dy = ry + dir[d%4][0]
         dx = rx + dir[d%4][1]
         if 0 <= dy < n and 0 <= dx < m:
-            if arr[dy][dx] == 0:
-                ry = dy
-                rx = dx
+            if arr[dy][dx] == 0: ry = dy; rx = dx
 
     elif flag == 0:
         dy = ry + dir[(d-2)%4][0]
         dx = rx + dir[(d-2)%4][1]
         if 0 <= dy < n and 0 <= dx < m:
-            if arr[dy][dx] != 1:
-                ry = dy
-                rx = dx
+            if arr[dy][dx] != 1: ry = dy; rx = dx
             else: break  
         else: break
 
