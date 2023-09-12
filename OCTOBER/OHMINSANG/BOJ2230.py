@@ -4,19 +4,16 @@ sys.stdin = open('input.txt', 'r')
 
 n, m = map(int, input().split())
 lst = []
-for _ in range(n):
-    lst.append(int(input()))
-
+for _ in range(n): lst.append(int(input()))
+lst.sort()
 high, low = 0, 0
-Min, target = 10e10, lst[high] - lst[low]
+Min = 10e10
 while 1:
-    if target >= m or high == n:
+    target = lst[high] - lst[low]
+    if target >= m or high == n - 1:
         low += 1
     elif target < m:
         high += 1
-
-    if target >= m:
-        Min = min(Min, target)
-    elif low == n:
-        break
+    if target >= m: Min = min(Min, target)
+    if low == n - 1: break
 print(Min)
