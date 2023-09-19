@@ -29,6 +29,5 @@ else:
         for i in arr[a[0]]:
             if result[i[0]] > result[a[0]] + i[1]:
                 result[i[0]] = result[a[0]] + i[1]
-                if i[0] != end:
-                    heapq.heappush(lst,i)
+                heapq.heappush(lst,i)
     print(result[end])
