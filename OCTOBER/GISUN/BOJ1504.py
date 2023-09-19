@@ -1,3 +1,7 @@
+# 문제 접근 다익스트라 최단거리 구하는 함수 제작 구간마다 구할 예정 result 함수 내부에 제작
+# 타겟 1,2 꼭 가야함으로 1>t1>t2>n 2>t1>t2>n 구하여 최소값 프린트
+
+
 import heapq
 n,m=map(int,input().split())
 inf=int(21e8)
@@ -9,9 +13,9 @@ def dijstra(start,end):
     result[start]=0
     while heap_lst:
         ps,w=heapq.heappop(heap_lst)
-        if ps>result[w]:continue                        #조금 헷갈렷음(최소 부터넣으니 뒤에 낮은 기대치 값 컨티뉴)
+        if ps>result[w]:continue                       
         for i in arr[w]:
-            cost=ps+i[1]                                 #조금 헷갈렸음(경유지를 통해 타겟에 들어가는 새로운값 변수 생성)
+            cost=ps+i[1]                                 
             if cost<result[i[0]]:
                 result[i[0]]=cost
                 heapq.heappush(heap_lst,[cost,i[0]])    # 경유지까지의 값과 경유지 인덱스 추가
