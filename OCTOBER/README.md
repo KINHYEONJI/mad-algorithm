@@ -36,3 +36,7 @@
 ### 0912
 - [2230](https://www.acmicpc.net/problem/2230)
 - [1806](https://www.acmicpc.net/problem/1806)
+
+### 0918
+- [13975](https://www.acmicpc.net/problem/13975)
+- [1916](https://www.acmicpc.net/problem/1916)
