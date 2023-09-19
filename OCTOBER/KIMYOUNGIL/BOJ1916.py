@@ -18,10 +18,7 @@ else:
 
     lst = []
     heapq.heapify(lst)
-
-    visited = [0]*(n+1)
-    visited[start] = 1
-
+    
     for i in arr[start]:
         result[i[0]] = min(result[i[0]],i[1])
         heapq.heappush(lst,i)
