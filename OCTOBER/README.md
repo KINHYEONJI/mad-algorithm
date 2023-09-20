@@ -40,3 +40,7 @@
 ### 0918
 - [13975](https://www.acmicpc.net/problem/13975)
 - [1916](https://www.acmicpc.net/problem/1916)
+
+### 0919
+- [1753](https://www.acmicpc.net/problem/1753)
+- [1504](https://www.acmicpc.net/problem/1504)
