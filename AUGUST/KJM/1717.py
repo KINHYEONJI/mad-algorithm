@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('OCTOBER/KJM/input.txt','r')
+sys.stdin = open('SEPTEMBER/KJM/input.txt','r')
 
 '''
 0번을 입력받으면 union 함수를 통해 두 요소를 합침
