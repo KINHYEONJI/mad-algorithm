@@ -1,5 +1,5 @@
 import sys
-sys.stdin = open('OCTOBER/KJM/input.txt','r')
+sys.stdin = open('SEPTEMBER/KJM/input.txt','r')
 
 '''
 최소신장트리 문제
