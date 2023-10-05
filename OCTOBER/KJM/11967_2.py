@@ -6,7 +6,7 @@ sys.stdin = open('input.txt','r')
 '''
 #1 bfs로 해당칸에 가서 킬 수 있는 곳에 불을 킨다
 #2 갈 수 없었던 곳을 갈 수 있게 되었으니까 예전에 갔던 경로도 다시 갈 수 있게 해줘야한다
-#3 아예 방문표시를 안하면 시간초과나고..
+#3 아예 방문표시를 안하면 시간초과나고..2
 '''
 from collections import deque,defaultdict
 
