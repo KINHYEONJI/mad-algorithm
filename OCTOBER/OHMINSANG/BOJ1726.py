@@ -1,3 +1,7 @@
+"""
+23 / 10 / 04 알고 스터디
+로봇
+"""
 import sys
 from collections import deque
 def input(): return sys.stdin.readline().rstrip()
