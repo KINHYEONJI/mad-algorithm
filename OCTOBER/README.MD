@@ -9,3 +9,8 @@
 
 - [11967](https://www.acmicpc.net/problem/11967)
 - [6198](https://www.acmicpc.net/problem/6198)
+- 
+### 1006
+
+- [1759](https://www.acmicpc.net/problem/1759)
+- [16933](https://www.acmicpc.net/problem/16933)
