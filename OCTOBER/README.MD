@@ -19,3 +19,13 @@
 
 - [1941](https://www.acmicpc.net/problem/1941)
 - [16987](https://www.acmicpc.net/problem/16987)
+
+- ### 1011
+
+- [9328](https://www.acmicpc.net/problem/9328)
+- [1374](https://www.acmicpc.net/problem/1374)
+
+- ### 1012
+
+- [18809](https://www.acmicpc.net/problem/18809)
+- [20166](https://www.acmicpc.net/problem/20166)
