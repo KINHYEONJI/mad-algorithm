@@ -44,3 +44,8 @@
 
 - [2240](https://www.acmicpc.net/problem/2240)
 - [1915](https://www.acmicpc.net/problem/1915)
+
+- ### 1018
+
+- [1261](https://www.acmicpc.net/problem/1261)
+- [11779](https://www.acmicpc.net/problem/11779)
