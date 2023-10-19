@@ -1,5 +1,6 @@
 import sys,heapq
 sys.stdin = open('input.txt','r')
+#
 
 n = int(input())
 m = int(input())
