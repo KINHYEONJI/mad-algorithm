@@ -49,3 +49,12 @@
 
 - [1261](https://www.acmicpc.net/problem/1261)
 - [11779](https://www.acmicpc.net/problem/11779)
+
+- ### 1020
+
+- [12852](https://www.acmicpc.net/problem/12852)
+- [15988](https://www.acmicpc.net/problem/15988)
+- [2302](https://www.acmicpc.net/problem/2302)
+- [1788](https://www.acmicpc.net/problem/1788)
+- [4883](https://www.acmicpc.net/problem/4883)
+- [9657](https://www.acmicpc.net/problem/9657)
