@@ -16,6 +16,3 @@ for i in range(n+1):
 for _ in range(m):
     s,e = map(int,input().split())
     print(dp[s][e])
-
-for i in dp:
-    print(*i)
