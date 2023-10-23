@@ -18,6 +18,7 @@ arr = ([[1] * (row + 2)] +
 
 sy, sx, st = map(int, input().split())
 ey, ex, et = map(int, input().split())
+
 cnt = 0
 used = [[[0] * 5 for _ in range(row + 1)] for _ in range(col + 1)]
 used[sy][sx][st] = 1
