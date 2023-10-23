@@ -58,3 +58,8 @@
 - [1788](https://www.acmicpc.net/problem/1788)
 - [4883](https://www.acmicpc.net/problem/4883)
 - [9657](https://www.acmicpc.net/problem/9657)
+
+- ### 1023
+
+- [1915](https://www.acmicpc.net/problem/1915)
+- [10942](https://www.acmicpc.net/problem/10942)
