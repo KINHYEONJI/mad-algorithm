@@ -12,8 +12,10 @@ rotate = {1: [3, 4], 2: [3, 4], 3: [1, 2], 4: [1, 2]}
 
 col, row = map(int, input().split())
 # arr 외곽을 1 로 둘러 쌓아줘서 arr의 좌표값과 문제의 좌표값을 일치시킨다.
-arr = [[1] * (row + 2)] + [[1] + list(map(int, input().split())) + [1] for _ in range(col)] + [
-    [1] * (row + 2)]
+arr = ([[1] * (row + 2)] +
+       [[1] + list(map(int, input().split())) + [1] for _ in range(col)] +
+       [[1] * (row + 2)])
+
 sy, sx, st = map(int, input().split())
 ey, ex, et = map(int, input().split())
 cnt = 0
