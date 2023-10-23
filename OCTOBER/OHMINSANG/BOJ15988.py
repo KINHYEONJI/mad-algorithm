@@ -37,4 +37,16 @@ dp 인덱스 값
 #14 3136
 #15 5768
 
+아래 코드로 경우의 수 측정.
+
+T = int(input())
+for _ in range(T):
+    n = int(input())
+    cnt = 0
+    for i in range(1, n+1):
+        arr = product('123', repeat = i)
+        for lst in arr:
+            if sum(map(int, lst)) == n:
+                cnt += 1
+    print(cnt)
 """
