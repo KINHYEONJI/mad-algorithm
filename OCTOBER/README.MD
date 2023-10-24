@@ -63,3 +63,8 @@
 
 - [1915](https://www.acmicpc.net/problem/1915)
 - [10942](https://www.acmicpc.net/problem/10942)
+
+- ### 1024
+
+- [1647](https://www.acmicpc.net/problem/1915)
+- [13418](https://www.acmicpc.net/problem/10942)
