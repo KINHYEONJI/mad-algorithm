@@ -66,5 +66,10 @@
 
 - ### 1024
 
-- [1647](https://www.acmicpc.net/problem/1915)
-- [13418](https://www.acmicpc.net/problem/10942)
+- [1647](https://www.acmicpc.net/problem/1647)
+- [13418](https://www.acmicpc.net/problem/13418)
+
+- ### 1025
+
+- [2170](https://www.acmicpc.net/problem/2170)
+- [2457](https://www.acmicpc.net/problem/2457)
