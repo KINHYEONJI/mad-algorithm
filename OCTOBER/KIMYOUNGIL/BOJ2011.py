@@ -7,6 +7,6 @@ else:
     for i in range(2,m+1):
         one = int(n[i-1])
         two = int(n[i-2])*10 + one
-        if one > 0: dp[i] += dp[i-1]
+        if one: dp[i] += dp[i-1]
         if 10 <= two <= 26: dp[i] += dp[i-2]
     print(dp[m]%1000000)
