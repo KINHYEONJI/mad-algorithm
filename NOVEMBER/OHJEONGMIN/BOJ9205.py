@@ -1,4 +1,5 @@
 from collections import deque
+#bfs
 def bfs():
     while q:
         x,y = q.popleft()
