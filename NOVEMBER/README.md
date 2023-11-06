@@ -18,3 +18,8 @@
 
 - [2550](https://www.acmicpc.net/problem/2550)
 - [1365](https://www.acmicpc.net/problem/1365)
+
+### 1106
+
+- [1525](https://www.acmicpc.net/problem/1525)
+- [2295](https://www.acmicpc.net/problem/2295)
